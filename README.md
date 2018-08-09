@@ -26,7 +26,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+This Jekyll theme supports [MailChimp](https://mailchimp.com).
+
+In order to use this, you must provide your User ID and List ID from MailChimp inside `_config.yml`:
+
+```
+mailchimp_userid: abcd123
+mailchimp_listid: abcd123
+```
 
 ## Contributing
 
