@@ -28,12 +28,24 @@ Or install it yourself as:
 
 This Jekyll theme supports [MailChimp](https://mailchimp.com).
 
+### Enabling MailChimp
+
 In order to use this, you must provide your User ID and List ID from MailChimp inside `_config.yml`:
 
 ```
 mailchimp_userid: abcd123
 mailchimp_listid: abcd123
 ```
+
+### Enabling Google Analytics
+
+To enable Google Analytics, add the following lines to your `_config.yml`:
+
+```
+google_analytics: UA-NNNNNNNN-N
+```
+
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`.
 
 ## Contributing
 
