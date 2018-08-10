@@ -26,9 +26,9 @@ Or install it yourself as:
 
 ## Usage
 
-This Jekyll theme supports [MailChimp](https://mailchimp.com).
-
 ### Enabling MailChimp
+
+This Jekyll theme supports [MailChimp](https://mailchimp.com).
 
 In order to use this, you must provide your User ID and List ID from MailChimp inside `_config.yml`:
 
@@ -46,6 +46,12 @@ google_analytics: UA-NNNNNNNN-N
 ```
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`.
+
+### Jekyll SEO
+
+This theme supports [Jekyll SEO](https://jekyll.github.io/jekyll-seo-tag).
+
+For instructions on how to use this plugin, go to their [Usage Guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
 
 ## Contributing
 
